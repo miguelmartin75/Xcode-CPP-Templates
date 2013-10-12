@@ -1,6 +1,3 @@
 INSTALL_FILEPATH="/Applications/Xcode.app/Contents/Developer/Library/Xcode/Templates/File Templates/C and C++"
-cp -R "./C File.xctemplate" "$INSTALL_FILEPATH"
-cp -R "./C Header File.xctemplate" "$INSTALL_FILEPATH" 
-cp -R "./C++ Class.xctemplate" "$INSTALL_FILEPATH"
-cp -R "./C++ File.xctemplate" "$INSTALL_FILEPATH"
-cp -R "./C++ Header File.xctemplate" "$INSTALL_FILEPATH"
+
+cp -a "./Templates/." "$INSTALL_FILEPATH"
